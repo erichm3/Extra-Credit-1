@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: block;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    margin: 0 75px;
+    width: 500px;
+    margin: auto;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.link {
+    margin: 10px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: grey;
+}
