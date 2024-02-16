@@ -7,7 +7,8 @@
 body {
     display: flex;
     flex-direction: row;
-    padding-top: 200px;
+    padding-top: 175px;
+    margin-left: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -22,8 +23,14 @@ body {
         margin-bottom: 25px;
     }
 
+    #section-2 {
+        justify-content: center;
+        align-items: center;
+    }
+
     #section-2 p {
         margin-bottom: 25px;
+        text-align: center;
     }
 }
 
@@ -36,8 +43,8 @@ body {
 }
 
 #section-1 img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 #section-1 h1 {
@@ -48,13 +55,16 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0 10%;
+    margin-top: 10%;
 }
 
-p {
-    text-align: center;
-    padding: 10%;
+#section-2 h3 {
+    margin: 0;
+}
+
+#section-2 p {
+    margin-bottom: 30px;
 }
 
 #links {
@@ -62,6 +72,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .link {
