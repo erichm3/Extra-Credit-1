@@ -70,6 +70,7 @@ body {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        margin-left: 0;
     }
 
     #section-1 {
